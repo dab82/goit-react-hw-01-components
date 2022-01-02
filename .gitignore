@@ -1,3 +1,31 @@
+
+Skip to content
+Pull requests
+Issues
+Marketplace
+Explore
+@dab82
+Deemon13 /
+goit-react-hw-01-components
+Public
+
+Code
+Issues
+Pull requests
+Actions
+Projects
+Wiki
+Security
+
+    Insights
+
+goit-react-hw-01-components/.gitignore
+@Deemon13
+Deemon13 start HW-1
+Latest commit 918e5f7 10 days ago
+History
+1 contributor
+127 lines (94 sloc) 1.88 KB
 # Logs
 logs
 *.log
@@ -102,3 +130,42 @@ dist
 
 # TernJS port file
 .tern-port
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# testing
+/coverage
+
+# production
+/build
+
+# misc
+.DS_Store
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+    © 2022 GitHub, Inc.
+
+    Terms
+    Privacy
+    Security
+    Status
+    Docs
+    Contact GitHub
+    Pricing
+    API
+    Training
+    Blog
+    About
+
+Loading complete
