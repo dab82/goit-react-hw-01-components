@@ -5,6 +5,9 @@ export const Table = styled.table`
 	width: 60%;
 	margin: 0 auto;
 	text-align: center;
+	border: 1px solid gray;
+	border-radius: 5px;
+	background: white;
 	& thead th {
 		padding: ${(props) => props.theme.spacing(3)};
 		font-family: ${(props) => props.theme.fonts.secondary};

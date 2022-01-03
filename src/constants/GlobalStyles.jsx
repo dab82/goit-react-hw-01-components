@@ -11,6 +11,10 @@ html {
   height: 100%;
 }
 
+body {
+  background-color: #d4eff3
+}
+
 img,
 picture,
 svg {

@@ -10,6 +10,7 @@ export const Card = styled.div`
 	${widthHeight(600)};
 	${block};
 	text-align: center;
+	background-color: white;
 	border-radius: ${(props) => props.theme.spacing(1)};
 	box-shadow: ${(props) => props.theme.colors.boxShadow};
 	overflow: hidden;

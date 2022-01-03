@@ -5,13 +5,14 @@ export const Card = styled.div`
 	${widthHeight(400)};
 	${block};
 
-	border-radius: ${(props) => props.theme.spacing(1)};
+	border-radius: ${(props) => props.theme.spacing(2)};
 	box-shadow: ${(props) => props.theme.colors.boxShadow};
 `;
 
 export const UserInfoWrapper = styled.div`
 	text-align: center;
 	padding: 40px 0;
+	background-color: white;
 `;
 
 export const Avatar = styled.img`
@@ -43,6 +44,7 @@ export const StatsList = styled.ul`
 	${flex({ jc: "space-between" })};
 	border-top: 1px solid ${(props) => props.theme.colors.greyOpacity};
 	background-color: ${(props) => props.theme.colors.greyBg};
+	border-radius: ${(props) => props.theme.spacing(2)};
 `;
 
 export const StatsItem = styled.li`

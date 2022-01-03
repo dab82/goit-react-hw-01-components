@@ -9,6 +9,7 @@ export const Friends = styled.ul`
 
 export const FriendItem = styled.li`
 	${flex({ jc: "flex-start" })};
+	background-color: white;
 	padding: ${(props) => props.theme.spacing(3)};
 	border-radius: ${(props) => props.theme.spacing(1)};
 	box-shadow: ${(props) => props.theme.colors.boxShadow};
