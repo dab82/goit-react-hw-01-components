@@ -7,10 +7,10 @@ export const Section = styled.section`
 `;
 
 export const Card = styled.div`
-	${widthHeight(600)};
+	${widthHeight(500)};
 	${block};
 	text-align: center;
-	background-color: white;
+	background-color: ${(props) => props.theme.colors.white};
 	border-radius: ${(props) => props.theme.spacing(1)};
 	box-shadow: ${(props) => props.theme.colors.boxShadow};
 	overflow: hidden;
@@ -25,13 +25,14 @@ export const Title = styled.h2`
 
 export const StatsList = styled.ul`
 	${flex({ jc: "space-between" })};
+	${widthHeight()};
 `;
 
 export const StatsItem = styled.li`
 	${flex};
 	flex-direction: column;
 	width: calc(100% / 5);
-	padding: ${(props) => props.theme.spacing(5)} 0;
+	padding: ${(props) => props.theme.spacing(5)};
 	background-color: ${generateDarkColorHex};
 `;
 

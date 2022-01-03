@@ -16,6 +16,6 @@ export const block = `
 `;
 
 export const widthHeight = (w, h) => `
-  width: ${w}px;
+  width: ${w ? `${w}px` : "100%"};
   height: ${h ? `${h}px` : "auto"} ;
 `;

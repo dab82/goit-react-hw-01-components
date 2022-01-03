@@ -12,7 +12,7 @@ html {
 }
 
 body {
-  background-color: #d4eff3
+  background-color: #d3ecdc
 }
 
 img,

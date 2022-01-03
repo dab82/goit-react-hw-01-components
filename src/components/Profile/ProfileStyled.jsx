@@ -12,11 +12,11 @@ export const Card = styled.div`
 export const UserInfoWrapper = styled.div`
 	text-align: center;
 	padding: 40px 0;
-	background-color: white;
+	background-color: ${(props) => props.theme.colors.white};
 `;
 
 export const Avatar = styled.img`
-	${widthHeight(100, 100)};
+	${widthHeight(150, 150)};
 	${block};
 	margin-bottom: ${(props) => props.theme.spacing(9)};
 	border-radius: 50%;
@@ -44,7 +44,8 @@ export const StatsList = styled.ul`
 	${flex({ jc: "space-between" })};
 	border-top: 1px solid ${(props) => props.theme.colors.greyOpacity};
 	background-color: ${(props) => props.theme.colors.greyBg};
-	border-radius: ${(props) => props.theme.spacing(2)};
+	border-end-start-radius: ${(props) => props.theme.spacing(2)};
+	border-end-end-radius: ${(props) => props.theme.spacing(2)};
 `;
 
 export const StatsItem = styled.li`
